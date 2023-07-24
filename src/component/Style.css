@@ -1,0 +1,79 @@
+.App {
+    text-align: center;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    /* background-image: linear-gradient(79deg, #ffeaa7, #b1abb0 48%, #ffeaa7); */
+    background: linear-gradient(90deg, rgb(23, 145, 128) 73%, rgb(79, 37, 156) 100%);
+      
+    background: -moz-linear-gradient(90deg, rgb(107, 152, 163) 73%, rgb(25, 231, 231) 100%);
+    
+    background: -webkit-linear-gradient(90deg, rgb(66, 45, 182) 73%, rgb(16, 173, 221) 100%);
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#C621E5", endColorstr="#F9C58D", GradientType=1 );
+  height: 100vh;
+   font-family: "Architects Daughter", cursive;
+  
+  }
+  
+  .auth-form-container, .login-form, .register-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  @media screen and (min-width: 600px) {
+    .auth-form-container {
+      padding: 5rem;
+      border: 1px solid white;
+      /* border-radius: 10px; */
+      /* border-radius: 20% 5% 20% 5%/5% 20% 25% 20%; */
+      /* border-radius: 50% 50% 0 50%/0 50% 50% 50%; */
+      border-radius: 50% 10% 50% 18%/0 50% 0 50%;
+      margin: 0.5rem;
+    }
+  }
+  
+  .r-label{
+    text-align: left;
+    padding: 0.25rem 0;
+  }
+  
+  .r-input {
+    margin: .5rem 0;
+    padding: 1rem;
+    border: none;
+    /* border-radius: 10px; */
+    /* border-radius: 20% 5% 20% 5%/5% 20% 25% 20%; */
+    border-radius: 50% 50% 0 50%/0 50% 50% 50%;
+    font-family: "Architects Daughter", cursive;
+    font-size: 17px;
+    font-weight: bold;
+  
+   
+  }
+  
+  .button-sign{
+    border: none;
+    background-color: white;
+    padding: 15px;
+    width: 80px;
+    /* margin-left: 0px; */
+    margin-top:20px;
+    cursor: pointer;
+    color: #7439db;
+    font-family: "Architects Daughter", cursive;
+    font-weight: bold;
+    /* border-radius: 20% 5% 20% 5%/5% 20% 25% 20%; */
+    border-radius: 50% 50% 0 50%/0 50% 50% 50%;
+  
+  }
+  
+  .link-btn{
+    width: fit-content;
+    background: none;
+    color: white;
+    text-decoration: none;
+    font-family: "Architects Daughter", cursive;
+  }
